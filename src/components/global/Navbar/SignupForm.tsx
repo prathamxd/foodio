@@ -74,7 +74,11 @@ const SignupForm = () => {
         >
           Register
         </Button>
-        {isRegistered && <p className="text-green-500 font-semibold my-2">User registered</p>}
+        {/* {isRegistered && (
+          <p className="text-green-500 font-medium my-2">
+            User registered. Try loggin in
+          </p>
+        )} */}
         <p className="text-rose-600 my-2">{error && error}</p>
       </form>
     </div>
